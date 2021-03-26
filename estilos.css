@@ -15,18 +15,18 @@ a{
 
 .contenedor{
     width: 90%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
 }
 
 /* -------- Header -------- */
 header{
-    padding: 40px 0;
+    padding: 10px 0;
 }
 
 header .logo{
-    text-align: center;
-    margin-bottom: 40px;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 header .logo p {
@@ -38,7 +38,7 @@ header form{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 header .barra-busqueda{
@@ -46,7 +46,7 @@ header .barra-busqueda{
     height: 40px;
     line-height: 40px;
     background: #ffffff;
-    padding: 0 20px;
+    padding: 0 10px;
     border-radius: 100px;
     border: none;
     text-align: center;
@@ -88,8 +88,8 @@ header .categorias a.activo{
     position: absolute;
     display: block;
     padding: 0;
-    margin: 10px;
-    width: calc(33% - 20px);
+    margin: 5px;
+    width: calc(20% - 20px);
 }
 
 .grid .item-contenido{
@@ -157,17 +157,17 @@ footer .redes-sociales{
     display: flex;
     align-content: center;
     justify-content: center;
-    padding: 20px;
+    padding: 5px;
     flex-wrap: wrap;
 }
 
 footer .redes-sociales a{
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     background: black;
     color: white;
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     border-radius: 100px;
     transition: .3s ease all;
@@ -184,8 +184,8 @@ footer .redes-sociales .icon-github{
 }
 
 footer .redes-sociales a i {
-    font-size: 20px;
-    line-height: 60px;
+    font-size: 10px;
+    line-height: 30px;
 }
 
 footer .contenedor-icono:hover a{
@@ -205,7 +205,7 @@ footer .autor {
     margin-bottom: 20px;
     text-align: center;
     font-size: 14px;
-    color: #c13584;
+    color: #084654;
 }
 
 /* -------- mediaquery -------- */
